@@ -1,0 +1,65 @@
+.app {
+  padding: 2rem 15rem;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+
+  header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .content {
+    .desc {
+      margin-bottom: 2rem;
+      color: rgb(153, 153, 153);
+      line-height: 25px;
+    }
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .submit-btn-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+
+      .submit-btn {
+        float: right;
+        margin-bottom: 20px;
+      }
+    }
+
+
+    .word-breakdown {
+      display: flex;
+      margin-top: 10px;
+
+      .word {
+        align-items: center;
+        margin-bottom: 2.5px;
+        padding: 7.5px;
+        padding-right: 15px;
+        margin-right: 10px;
+        border: 1.5px solid gray;
+        border-radius: 7.5%;
+      }
+
+      .word:hover {
+        cursor: pointer;
+        background-color: lightblue;
+        border: 1.5px solid gray;
+      }
+
+      .green {
+        color: green;
+      }
+
+      .red {
+        color: red;
+      }
+    }
+  }
+}
